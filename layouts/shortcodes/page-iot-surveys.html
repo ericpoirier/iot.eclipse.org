@@ -8,14 +8,14 @@
     
   SPDX-License-Identifier: EPL-2.0
 -->
-<div class="resources" style="border-bottom:none;">
+<div class="resources-group" style="border-bottom:none;">
 {{ range .Site.Data.iot_surveys.items }}
   <div class="col-md-8 matchheight-item">
-    <div class="resources-summary">
-      <a class="resources-summary-img" href="{{ .link }}">
+    <div class="resources-item">
+      <a class="resources-item-img" href="{{ .link }}">
         <img src="{{ .img }}" alt="{{ .title | safeHTML }}">
       </a>
-      <h4 class="resources-summary-heading"><a href="{{ .link }}">{{ .title }}</a></h4>
+      <h4 class="resources-item-heading"><a href="{{ .link }}">{{ .title }}</a></h4>
       <p style="margin-top: 1em;">
         {{ if .link }}
           <a href="{{.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>

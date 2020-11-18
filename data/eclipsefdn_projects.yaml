@@ -1351,6 +1351,12 @@
     contributors: []
     committers: 
       - 
+        username: "wchenl8e"
+        url: "https://api.eclipse.org/account/profile/wchenl8e"
+      - 
+        username: "sschildt"
+        url: "https://api.eclipse.org/account/profile/sschildt"
+      - 
         username: "sjeroschewski"
         url: "https://api.eclipse.org/account/profile/sjeroschewski"
       - 
